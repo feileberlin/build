@@ -133,7 +133,7 @@ install_vm_packages()
     $SUDO apt-get install -y  \
 	qemu-efi              \
 	virt-manager          \
-	libvirt-bin           \
+	libvirt-daemon        \
 	qemu-guest-agent      \
 	qemu-system-aarch64
 }
