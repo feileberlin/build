@@ -50,6 +50,9 @@ startup_checks()
     elif [ $DISTRO_VERSION == "disco" ]; then
 	ISOURL=http://cdimage.ubuntu.com/releases/19.04/release
 	ISO=ubuntu-19.04-server-arm64.iso
+    elif [ $DISTRO_VERSION == "focal" ]; then
+	ISOURL=http://cdimage.ubuntu.com/releases/20.04/release
+	ISO=ubuntu-20.04-server-arm64.iso
     elif [ $DISTRO_VERSION == "eoan" ]; then
 	ISOURL=http://cdimage.ubuntu.com/ubuntu-server/daily/current
 	ISO=eoan-server-arm64.iso
